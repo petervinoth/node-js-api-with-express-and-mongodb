@@ -1,0 +1,18 @@
+{
+    "development": {
+        "PORT": 5000,
+        "MONGODB_URI": "mongodb://localhost:27017/project",
+        "JWT_SECRET": "SECRET#123",
+        "JWT_EXP": "60m",
+        "FILE_UPLOAD_PATH":"./public/uploads",
+        "MAX_FILE_UPLOAD":"1000000"
+    },
+    "production": {
+        "PORT": 5000,
+        "MONGODB_URI": "mongodb://localhost:27017/project",
+        "JWT_SECRET": "SECRET#123",
+        "JWT_EXP": "60m",
+        "FILE_UPLOAD_PATH":"./public/uploads",
+        "MAX_FILE_UPLOAD":"1000000"
+    }
+}
